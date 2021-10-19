@@ -7,7 +7,7 @@
 		"value": -0.05,
 		"name": "Increased sprinting speed"
 	},
-	"tick_rate": 9,
+	"tick_rate": 10,
 	"condition": {
 		"type": "origins:or",
 		"conditions": [
