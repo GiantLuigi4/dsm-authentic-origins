@@ -1,0 +1,10 @@
+{
+	"type": "origins:shader",
+	"shader": "minecraft:shaders/post/sobel.json",
+	"condition": {
+		"type": "origins:resource",
+		"resource": "extraorigins:spiritresource",
+		"comparison": "==",
+		"compare_to": 1
+	}
+}

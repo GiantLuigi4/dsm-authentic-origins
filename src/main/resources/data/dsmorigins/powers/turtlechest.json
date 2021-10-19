@@ -1,0 +1,165 @@
+{
+	"type": "origins:multiple",
+	"leather_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"operation": "addition",
+				"value": -0.003
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 2
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "extraorigins:leather"
+				}
+			}
+		}
+	},
+	"gold_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"operation": "addition",
+				"value": -0.001
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 2
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "extraorigins:golden_armor"
+				}
+			}
+		}
+	},
+	"chainmail_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"operation": "addition",
+				"value": -0.006
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 4
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "extraorigins:chainmail"
+				}
+			}
+		}
+	},
+	"iron_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"operation": "addition",
+				"value": -0.010
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 4
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "extraorigins:iron"
+				}
+			}
+		}
+	},
+	"diamond_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"operation": "addition",
+				"value": -0.025
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 6
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "extraorigins:diamond"
+				}
+			}
+		}
+	},
+	"netherite_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"operation": "addition",
+				"value": -0.032
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 8
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "extraorigins:netherite_armor"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "origins:multiple",
+	"modify_size": {
+		"type": "extraorigins:modify_size",
+		"scale": 0.8
+	},
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"value": -6,
+				"operation": "addition"
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.movement_speed",
+				"value": 0.005,
+				"operation": "addition"
+			}
+		]
+	}
+}

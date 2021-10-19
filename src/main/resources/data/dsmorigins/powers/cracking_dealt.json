@@ -1,0 +1,44 @@
+{
+	"type": "origins:self_action_when_hit",
+	"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "extraorigins:cracking",
+			"change": -1
+	},
+	"damage_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:amount",
+				"comparison": ">=",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:name",
+				"name": "starve",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "drown",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "cactus",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "onFire",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "sweetBerryBush",
+				"inverted": true
+			}
+		]
+	},
+		"cooldown": 0
+}

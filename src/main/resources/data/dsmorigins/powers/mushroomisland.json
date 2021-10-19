@@ -1,0 +1,18 @@
+{
+	"type": "origins:conditioned_attribute",
+	"hidden": true,
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": 0.04,
+		"name": "Increased sprinting speed"
+	},
+	"tick_rate": 10,
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:category",
+			"category": "mushroom"
+		}
+	}
+}

@@ -1,0 +1,583 @@
+{
+	"type": "origins:multiple",
+	"hunger20": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.4,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 20
+		}
+	},
+	"hunger20breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 20
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 1
+		}
+	},
+	"hunger19": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.38,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 19
+		}
+	},
+	"hunger19breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 19
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.95
+		}
+	},
+	"hunger18": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.36,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 18
+		}
+	},
+	"hunger18breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 18
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.9
+		}
+	},
+	"hunger17": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.34,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 17
+		}
+	},
+	"hunger17breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 17
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.85
+		}
+	},
+	"hunger16": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.32,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 16
+		}
+	},
+	"hunger16breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 16
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.8
+		}
+	},
+	"hunger15": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.3,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 15
+		}
+	},
+	"hunger15breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 15
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.75
+		}
+	},
+	"hunger14": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.28,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 14
+		}
+	},
+	"hunger14breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 14
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.7
+		}
+	},
+	"hunger13": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.26,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 13
+		}
+	},
+	"hunger13breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 13
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.65
+		}
+	},
+	"hunger12": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.24,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 12
+		}
+	},
+	"hunger12breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 12
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.6
+		}
+	},
+	"hunger11": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.22,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 11
+		}
+	},
+	"hunger11breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 11
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.55
+		}
+	},
+	"hunger10": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.2,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 10
+		}
+	},
+	"hunger10breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 10
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+		}
+	},
+	"hunger9": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.18,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 9
+		}
+	},
+	"hunger9breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 9
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.45
+		}
+	},
+	"hunger8": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.16,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 8
+		}
+	},
+	"hunger8breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 8
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.4
+		}
+	},
+	"hunger7": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.14,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 7
+		}
+	},
+	"hunger7breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 7
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.35
+		}
+	},
+	"hunger6": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.12,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 6
+		}
+	},
+	"hunger6breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 6
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.3
+		}
+	},
+	"hunger5": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.1,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 5
+		}
+	},
+	"hunger5breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 5
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.25
+		}
+	},
+	"hunger4": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.08,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 4
+		}
+	},
+	"hunger4breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 4
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.2
+		}
+	},
+	"hunger3": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.06,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 3
+		}
+	},
+	"hunger3breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 3
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.15
+		}
+	},
+	"hunger2": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.04,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 2
+		}
+	},
+	"hunger2breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 2
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.1
+		}
+	},
+	"hunger1": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.02,
+			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"hunger1breakspeed": {
+		"type": "origins:modify_break_speed",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "extraorigins:mining_frenzy_resource",
+			"comparison": "==",
+			"compare_to": 1
+		},
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.05
+		}
+	}
+}

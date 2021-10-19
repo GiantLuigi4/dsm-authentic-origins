@@ -1,0 +1,36 @@
+{
+	"type": "origins:recipe",
+	"recipe": {
+		"type": "minecraft:crafting_shaped",
+		"id": "extraorigins:amethyst_luck",
+		"pattern": [
+			" # ",
+			"#$#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"$": {
+				"item": "minecraft:budding_amethyst"
+			}
+		},
+		"result": {
+			"item": "minecraft:amethyst_shard",
+			"data": {
+				"display": {
+					"Name": "{\"text\":\"Luck Charm\"}",
+					"Lore": "{\"text\":\"When held grants the Player the Luck Effect.\"}"
+				},
+				"Enchantments": [
+					{
+						"id": "minecraft:looting",
+						"lvl": 1
+					}
+				],
+				"HideFlags": 64
+			}
+		}
+	}
+}

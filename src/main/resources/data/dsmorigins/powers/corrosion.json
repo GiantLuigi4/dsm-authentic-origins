@@ -1,0 +1,87 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:feed",
+				"food": 0,
+				"saturation": -1
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:exhaust",
+					"amount": 3.0
+				}
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:weakness",
+					"duration": 150,
+					"amplifier": 0
+				}
+			},
+
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:scrape ~ ~ ~ 0.7 1.2 0.7 0.5 50",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:block.grindstone.use player @p",
+				"permission_level": 4
+			}
+		]
+	},
+	"damage_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "thrown",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "trident",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "arrow",
+				"inverted": true
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:air"
+					}
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "<",
+				"compare_to": 10
+			}
+		]
+	},
+	"cooldown": 60,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"should_render": true,
+		"bar_index": 6
+	}
+}

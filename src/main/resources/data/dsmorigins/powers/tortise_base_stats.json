@@ -1,0 +1,29 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.max_health",
+			"operation": "addition",
+			"value": 8
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": 4
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.movement_speed",
+			"operation": "addition",
+			"value": -0.035
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.knockback_resistance",
+			"operation": "addition",
+			"value": 0.1
+		}
+	]
+}

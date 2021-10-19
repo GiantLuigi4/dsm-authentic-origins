@@ -1,0 +1,21 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"target_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:origin",
+				"origin": "extraorigins:keeper"
+			},
+			{
+				"type": "origins:origin",
+				"origin": "extraorigins:kobold"
+			}
+		]
+	},
+	"modifier": {
+		"name": "Increased Damage to Copper/Kobold Origins.",
+		"operation": "multiply_total",
+		"value": 0.1
+	}
+}

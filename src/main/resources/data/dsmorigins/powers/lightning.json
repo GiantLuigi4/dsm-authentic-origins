@@ -1,0 +1,42 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "summon minecraft:lightning_bolt ~ ~ ~",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:wax_off ~ ~ ~ 0.7 1.2 0.7 0.5 50",
+				"permission_level": 4
+			}
+		]
+	},
+
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "extraorigins:trident"
+					}
+				}
+			},
+			{
+				"type": "origins:in_rain"
+			}
+		]
+	},
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 3
+	}
+}

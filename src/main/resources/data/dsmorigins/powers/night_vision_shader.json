@@ -1,0 +1,8 @@
+{
+	"type": "origins:shader",
+	"shader": "extraorigins:shaders/post/transparency.json",
+	"condition": {
+		"type": "origins:power_active",
+		"power": "extraorigins:night_vision_toggle"
+	}
+}

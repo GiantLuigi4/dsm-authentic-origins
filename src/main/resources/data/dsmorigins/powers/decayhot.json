@@ -1,0 +1,17 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "dsmorigins:decaystore",
+		"change": 1
+	},
+	"interval": 222,
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": ">=",
+			"compare_to": 2
+		}
+	}
+}

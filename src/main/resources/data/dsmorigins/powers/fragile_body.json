@@ -1,0 +1,8 @@
+{
+	"type": "origins:modify_damage_taken",
+	"modifier": {
+		"name": "Shatterable Body",
+		"operation": "multiply_total",
+		"value": 1
+	}
+}

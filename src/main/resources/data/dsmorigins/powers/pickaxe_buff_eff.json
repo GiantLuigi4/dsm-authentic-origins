@@ -1,0 +1,183 @@
+{
+	"type": "origins:multiple",
+	"efficencyi": {
+		"type": "origins:conditioned_attribute",
+		"modifier":
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.05,
+			"name": "Double Attack Damage"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "extraorigins:pickaxes"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:efficiency",
+						"comparison": "==",
+						"compare_to": 1
+					}
+				}
+			]
+		}
+	},
+	"efficencyii": {
+		"type": "origins:conditioned_attribute",
+		"modifier":
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.10,
+			"name": "Double Attack Damage"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "extraorigins:pickaxes"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:efficiency",
+						"comparison": "==",
+						"compare_to": 2
+					}
+				}
+			]
+		}
+	},
+	"efficencyiii": {
+		"type": "origins:conditioned_attribute",
+		"modifier":
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.15,
+			"name": "Double Attack Damage"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "extraorigins:pickaxes"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:efficiency",
+						"comparison": "==",
+						"compare_to": 3
+					}
+				}
+			]
+		}
+	},
+	"efficencyiv": {
+		"type": "origins:conditioned_attribute",
+		"modifier":
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.20,
+			"name": "Double Attack Damage"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "extraorigins:pickaxes"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:efficiency",
+						"comparison": "==",
+						"compare_to": 4
+					}
+				}
+			]
+		}
+	},
+	"efficencyv": {
+		"type": "origins:conditioned_attribute",
+		"modifier":
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": 0.25,
+			"name": "Double Attack Damage"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "extraorigins:pickaxes"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:enchantment",
+						"enchantment": "minecraft:efficiency",
+						"comparison": "==",
+						"compare_to": 5
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": true
+	},
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "effect give @s minecraft:regeneration 2 1",
+		"permission_level": 4
+	},
+	"condition": {
+		"type": "origins:on_block"
+	},
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "extraorigins:fairy_stats",
+    "extraorigins:fairy_flight",
+    "extraorigins:fairy_bow",
+    "origins:fall_immunity"
+  ],
+  "icon": "pink_wool",
+  "unchoosable": true,
+  "order": 1,
+  "impact": 2
+}

@@ -1,0 +1,66 @@
+{
+	"type": "origins:conditioned_attribute",
+	"hidden": true,
+	"modifiers": [
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": -8
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.2
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.attack_speed",
+			"operation": "multiply_total",
+			"value": -0.2
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.attack_damage",
+			"operation": "multiply_total",
+			"value": -0.1
+		}
+	],
+	"tick_rate": 10,
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 16
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 17
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 18
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 19
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 20
+			}
+		]
+	}
+}

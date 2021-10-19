@@ -1,0 +1,14 @@
+{
+  "powers": [
+	"dsmorigins:wild_expert",
+    "dsmorigins:bow_master",
+	"dsmorigins:not_swimmer",
+    "dsmorigins:gravely_fear",
+    "dsmorigins:flammable",
+    "dsmorigins:enchanted_arrows_recipe",
+    "dsmorigins:allergic"
+  ],
+  "icon": "oak_leaves",
+  "order": 1,
+  "impact": 1
+}

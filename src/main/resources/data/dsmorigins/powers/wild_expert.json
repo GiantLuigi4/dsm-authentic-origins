@@ -1,0 +1,16 @@
+{
+"type": "origins:conditioned_attribute",
+"modifier": {
+"attribute": "minecraft:generic.movement_speed",
+"operation": "addition",
+"value": 0.01,
+"name": "Increased sprinting speed"
+},
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:category",
+			"category": "forest"
+		}
+	}
+}

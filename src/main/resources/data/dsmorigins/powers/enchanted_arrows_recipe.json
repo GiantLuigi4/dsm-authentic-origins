@@ -1,0 +1,27 @@
+{
+	"type": "origins:recipe",
+	"recipe": {
+		"type": "minecraft:crafting_shaped",
+		"id": "extraorigins:thorny_arrows",
+		"pattern": [
+			"###",
+			"#$#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:arrow"
+			},
+			"$": {
+				"item": "minecraft:moss_block"
+			}
+		},
+		"result": {
+			"item": "minecraft:tipped_arrow",
+			"count": 8,
+			"data": {
+				"Potion": "minecraft:poison"
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "powers": [
+	"extraorigins:mushyhunger",
+    "extraorigins:mushlin_stats",
+    "extraorigins:mushroomeating",
+    "extraorigins:hard_cap",
+    "extraorigins:soft_cap",
+    "extraorigins:crimson_cap",
+    "extraorigins:warped_cap",
+    "extraorigins:mushroom_plant",
+    "extraorigins:mushroom_plant_player",
+    "extraorigins:mushroom_plant_player2",
+    "extraorigins:wearing_red_mushroom",
+    "extraorigins:wearing_crimson_fungus",
+    "extraorigins:wearing_warped_fungus",
+    "extraorigins:wearing_brown_mushroom",
+    "extraorigins:nonthathungry",
+    "extraorigins:nohelments",
+    "extraorigins:mushroomisland"
+  ],
+  "icon": "red_mushroom_block",
+  "order": 1,
+  "impact": 2
+}

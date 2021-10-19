@@ -1,0 +1,27 @@
+{
+  "powers": [
+    "dsmorigins:corrosion",
+	"dsmorigins:decay1",
+    "dsmorigins:decay2",
+    "dsmorigins:decay2.5",
+    "dsmorigins:decay3",
+    "dsmorigins:decay4",
+    "dsmorigins:decaystore",
+    "dsmorigins:decayadd",
+    "dsmorigins:decayhot",
+    "dsmorigins:decayfire",
+    "dsmorigins:wax_off",
+    "dsmorigins:wax_on",
+    "dsmorigins:wax_amy",
+    "dsmorigins:wax_copper",
+    "dsmorigins:waxed",
+    "dsmorigins:copper1",
+    "dsmorigins:no_food",
+    "dsmorigins:constantfood",
+    "dsmorigins:waterignore",
+    "dsmorigins:coppered"
+  ],
+  "icon": "copper_block",
+  "order": 1,
+  "impact": 3
+}

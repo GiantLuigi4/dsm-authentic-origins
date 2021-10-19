@@ -1,0 +1,58 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"key": {
+		"key": "key.use"
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:block.amethyst.place player @p",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "extraorigins:cracking",
+				"change": 1
+			},
+			{
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"action": {
+					"type": "origins:consume",
+					"amount": 1
+				}
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:amethyst_shard"
+					}
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:cracking",
+				"comparison": "!=",
+				"compare_to": 7
+			}
+		]
+	},
+	"cooldown": 120,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 3,
+		"should_render": true
+	}
+}
+

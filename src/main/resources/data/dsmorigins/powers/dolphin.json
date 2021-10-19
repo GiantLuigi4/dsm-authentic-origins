@@ -1,0 +1,22 @@
+{
+	"type": "origins:self_action_on_kill",
+	"cooldown": 1,
+	"hud_render": {
+		"bar_index": 1
+	},
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "extraorigins:zzpowers",
+		"change": 30
+	},
+	"condition": {
+		"type": "origins:resource",
+		"resource": "extraorigins:zzpowers",
+		"comparison": "==",
+		"compare_to": 0
+	},
+	"target_condition": {
+		"type": "origins:in_tag",
+		"tag": "extraorigins:dolphin"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:luck",
+			"duration": 25,
+			"amplifier": 0
+		}
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:enchantment",
+							"enchantment": "minecraft:depth_strider",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:amethyst_shard"
+							}
+						}
+					]
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:enchantment",
+							"enchantment": "minecraft:looting",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:amethyst_shard"
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

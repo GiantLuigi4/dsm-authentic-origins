@@ -1,0 +1,13 @@
+{
+	"type": "origins:invulnerability",
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "starve"
+	},
+	"condition": {
+		"type": "origins:resource",
+		"resource": "extraorigins:mining_frenzy_resource",
+		"comparison": "!=",
+		"compare_to": 0
+	}
+}

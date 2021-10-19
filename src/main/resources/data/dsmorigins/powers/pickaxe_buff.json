@@ -1,0 +1,28 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifiers": [
+		{
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "multiply_total",
+			"value": 1,
+			"name": "Double Attack Damage"
+		},
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": -0.50,
+			"name": "Less Attack Speed"
+		}
+	],
+	"tick_rate": 20,
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "extraorigins:pickaxes"
+			}
+		}
+	}
+}

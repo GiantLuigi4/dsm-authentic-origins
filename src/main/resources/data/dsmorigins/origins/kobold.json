@@ -1,0 +1,33 @@
+{
+  "powers": [
+    "extraorigins:budding_amethyst",
+    "extraorigins:kobold",
+    "extraorigins:budding_amethyst_recipe",
+    "extraorigins:amethyst_sword",
+    "extraorigins:luck_charm",
+    "extraorigins:cracking",
+    "extraorigins:cracking_reset",
+    "extraorigins:cracking_fix",
+    "extraorigins:cracking_dealt",
+    "extraorigins:pickaxe_buff",
+    "extraorigins:pickaxe_buff_eff",
+    "extraorigins:kobold_stats",
+    "extraorigins:fragile_body",
+    "extraorigins:night_vision",
+    "extraorigins:night_vision_shader",
+    "extraorigins:night_vision_toggle",
+    "extraorigins:pickaxe_bonus_origin",
+    "extraorigins:mining_frenzy",
+    "extraorigins:mining_frenzy_food_immunity",
+    "extraorigins:mining_frenzy_smoke",
+    "extraorigins:mining_frenzy_attributes",
+    "extraorigins:mining_frenzy_resource",
+    "extraorigins:mining_frenzy_shader",
+    "extraorigins:mining_frenzy_reset",
+    "extraorigins:ore_smell",
+    "extraorigins:ore_smell_toggle"
+  ],
+  "icon": "amethyst_block",
+  "order": 1,
+  "impact": 3
+}

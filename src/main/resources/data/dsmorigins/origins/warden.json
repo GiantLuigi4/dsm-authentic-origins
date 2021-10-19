@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "extraorigins:tortise_base_stats",
+    "extraorigins:rammus",
+    "extraorigins:turtleblood",
+    "extraorigins:waterignore",
+    "extraorigins:turtlechest",
+    "origins:no_shield"
+  ],
+  "icon": "scute",
+  "order": 1,
+  "impact": 2
+}

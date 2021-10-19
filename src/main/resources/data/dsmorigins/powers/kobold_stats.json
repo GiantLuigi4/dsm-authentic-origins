@@ -1,0 +1,37 @@
+{
+	"type": "origins:multiple",
+	"modify_size": {
+		"type": "extraorigins:modify_size",
+		"scale": 0.48
+	},
+	"break_speed": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0.30
+		}
+	},
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": -4
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.armor",
+				"operation": "addition",
+				"value": 4
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "addition",
+				"value": -0.10
+			}
+		]
+	}
+}

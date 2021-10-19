@@ -1,0 +1,73 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"key": {
+		"key": "key.use"
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:wax_off ~ ~ ~ 0.75 1.25 0.75 1 100",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:block.grindstone.use player @p",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "extraorigins:decaystore",
+				"change": -5
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "extraorigins:waxed",
+				"change": -1
+			},
+			{
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"action": {
+					"type": "origins:damage",
+					"amount": 1,
+					"ignore_unbreaking": false
+				}
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:waxed",
+				"comparison": "==",
+				"compare_to": 2
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "extraorigins:axes"
+					}
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "extraorigins:decaystore",
+				"comparison": "!=",
+				"compare_to": 0
+			}
+		]
+	},
+	"cooldown": 0,
+	"hud_render": {
+		"should_render": false
+	}
+}
+

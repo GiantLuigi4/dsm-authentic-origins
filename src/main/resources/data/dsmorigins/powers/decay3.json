@@ -1,0 +1,10 @@
+{
+	"type": "origins:disable_regen",
+	"hidden": true,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "extraorigins:decaystore",
+		"comparison": "==",
+		"compare_to": 20
+	}
+}

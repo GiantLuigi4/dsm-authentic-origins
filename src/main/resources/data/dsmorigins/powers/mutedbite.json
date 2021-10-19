@@ -1,0 +1,62 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:poison",
+					"duration": 10,
+					"amplifier": 0
+				}
+			},
+
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:sweep_attack ~ ~0.9 ~ 0.3 0 0.3 0 5",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.player.attack.sweep player @p",
+				"permission_level": 4
+			}
+		]
+	},
+	"damage_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "thrown",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "trident",
+				"inverted": true
+			},
+			{
+				"type": "origins:name",
+				"name": "arrow",
+				"inverted": true
+			}
+		]
+	},
+	"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:air"
+					}
+				}
+	},
+	"cooldown": 45,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 3
+	}
+}

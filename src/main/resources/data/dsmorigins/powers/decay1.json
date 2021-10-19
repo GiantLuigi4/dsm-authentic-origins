@@ -1,0 +1,46 @@
+{
+	"type": "origins:conditioned_attribute",
+	"hidden": true,
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "multiply_total",
+		"value": -0.05,
+		"name": "Increased sprinting speed"
+	},
+	"tick_rate": 10,
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 5
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 6
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 7
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 8
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:decaystore",
+				"comparison": "==",
+				"compare_to": 9
+			}
+		]
+	}
+}

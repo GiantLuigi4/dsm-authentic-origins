@@ -1,0 +1,20 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": true
+	},
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "effect give @s minecraft:slowness 3 255 true",
+		"permission_level": 4
+	},
+	"condition": {
+		"type": "origins:on_block"
+	},
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	}
+}
