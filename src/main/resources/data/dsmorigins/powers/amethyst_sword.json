@@ -20,8 +20,8 @@
 			"item": "minecraft:amethyst_shard",
 			"data": {
 				"display": {
-					"Name": "{\"text\":\"Luck Charm\"}",
-					"Lore": "{\"text\":\"When held grants the Player the Luck Effect.\"}"
+					"Name": "{\"text\":\"Mystical Charm\"}",
+					"Lore": "{\"text\":\"When held grants a Kobold the Luck Effect.\"}"
 				},
 				"Enchantments": [
 					{
