@@ -1,10 +1,15 @@
-package net.fabricmc.example;
+package io.github.sonicjdf.dsmorigins;
 
+import io.github.apace100.apoli.registry.ApoliRegistries;
+import io.github.apace100.calio.data.SerializableData;
+import io.github.sonicjdf.dsmorigins.registry.Powers;
+import io.github.sonicjdf.dsmorigins.registry.ScaleTypes;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ExampleMod implements ModInitializer {
+public class DSMOrigins implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
@@ -12,6 +17,7 @@ public class ExampleMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ScaleTypes.init();
+		Powers.init();
 	}
 }
