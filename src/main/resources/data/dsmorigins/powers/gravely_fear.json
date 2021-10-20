@@ -7,6 +7,6 @@
 	"modifier": {
 		"name": "Less damage to Undead",
 		"operation": "multiply_total",
-		"value": -0.5
+		"value": -0.3
 	}
 }

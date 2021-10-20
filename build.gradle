@@ -22,6 +22,10 @@ repositories {
 		}
 	}
 	maven {
+		name "Siphalor's Maven"
+		url "https://maven.siphalor.de"
+	}
+	maven {
 		url "https://maven.jamieswhiteshirt.com/libs-release"
 		content {
 			includeGroup "com.jamieswhiteshirt"
@@ -44,7 +48,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
-
+	modImplementation "de.siphalor:nbtcrafting-1.17:2+"
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 

@@ -6,12 +6,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.4,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors and potato ay-o gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 20
 		}
@@ -20,7 +20,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 20
 		},
@@ -35,12 +35,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.38,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors and cut it ay-o gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 19
 		}
@@ -49,7 +49,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 19
 		},
@@ -64,12 +64,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.36,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and or"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 18
 		}
@@ -78,7 +78,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 18
 		},
@@ -93,12 +93,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.34,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 17
 		}
@@ -107,7 +107,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 17
 		},
@@ -122,12 +122,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.32,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 16
 		}
@@ -136,7 +136,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 16
 		},
@@ -151,12 +151,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.3,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 15
 		}
@@ -165,7 +165,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 15
 		},
@@ -180,12 +180,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.28,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 14
 		}
@@ -194,7 +194,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 14
 		},
@@ -209,12 +209,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.26,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "stop"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 13
 		}
@@ -223,7 +223,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 13
 		},
@@ -238,12 +238,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.24,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 12
 		}
@@ -252,7 +252,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 12
 		},
@@ -267,12 +267,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.22,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "grandma mode"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 11
 		}
@@ -281,7 +281,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 11
 		},
@@ -296,12 +296,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.2,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 10
 		}
@@ -310,7 +310,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 10
 		},
@@ -325,12 +325,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.18,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 9
 		}
@@ -339,7 +339,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 9
 		},
@@ -354,12 +354,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.16,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "em"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 8
 		}
@@ -368,7 +368,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 8
 		},
@@ -383,12 +383,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.14,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too man gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 7
 		}
@@ -397,7 +397,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 7
 		},
@@ -412,12 +412,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.12,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way to gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 6
 		}
@@ -426,7 +426,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 6
 		},
@@ -441,12 +441,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.1,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 5
 		}
@@ -455,7 +455,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 5
 		},
@@ -470,12 +470,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.08,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and orsssass"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 4
 		}
@@ -484,7 +484,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 4
 		},
@@ -499,12 +499,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.06,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "the potato"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 3
 		}
@@ -513,7 +513,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 3
 		},
@@ -528,12 +528,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.04,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors and ay-o gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 2
 		}
@@ -542,7 +542,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 2
 		},
@@ -557,12 +557,12 @@
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
 			"value": 0.02,
-			"name": "there's way too many ands and ors and deez nuts ay-o gottem"
+			"name": "there's way too many ands and ors and deez ay-o gottem"
 		},
 		"tick_rate": 20,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 1
 		}
@@ -571,7 +571,7 @@
 		"type": "origins:modify_break_speed",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "extraorigins:mining_frenzy_resource",
+			"resource": "dsmorigins:mining_frenzy_resource",
 			"comparison": "==",
 			"compare_to": 1
 		},

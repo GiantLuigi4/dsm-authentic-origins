@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"modify_size": {
-		"type": "extraorigins:modify_size",
+		"type": "dsmorigins:rescale",
 		"scale": 0.48
 	},
 	"break_speed": {
@@ -22,15 +22,9 @@
 			},
 			{
 				"name": "Origin modifier",
-				"attribute": "generic.armor",
-				"operation": "addition",
-				"value": 4
-			},
-			{
-				"name": "Origin modifier",
 				"attribute": "reach-entity-attributes:attack_range",
 				"operation": "addition",
-				"value": -0.10
+				"value": -0.15
 			}
 		]
 	}

@@ -2,7 +2,7 @@
 	"type": "origins:action_on_callback",
 	"entity_action_removed": {
 		"type": "origins:change_resource",
-		"resource": "extraorigins:mining_frenzy_resource",
+		"resource": "dsmorigins:mining_frenzy_resource",
 		"change": -20
 	},
 	"execute_chosen_when_orb": true

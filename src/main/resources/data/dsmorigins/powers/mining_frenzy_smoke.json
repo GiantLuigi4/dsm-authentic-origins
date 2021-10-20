@@ -22,6 +22,7 @@
 					"ticks": 1,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				},
@@ -30,6 +31,7 @@
 					"ticks": 5,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				},
@@ -38,6 +40,7 @@
 					"ticks": 10,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				},
@@ -46,6 +49,7 @@
 					"ticks": 15,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				},
@@ -54,6 +58,7 @@
 					"ticks": 20,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				},
@@ -62,6 +67,7 @@
 					"ticks": 25,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				},
@@ -70,6 +76,7 @@
 					"ticks": 30,
 					"action": {
 						"type": "origins:exhaust",
+						"interval": 0,
 						"amount": 1000.0
 					}
 				}

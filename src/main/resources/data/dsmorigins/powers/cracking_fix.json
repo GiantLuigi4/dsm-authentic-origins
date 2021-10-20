@@ -14,7 +14,7 @@
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "extraorigins:cracking",
+				"resource": "dsmorigins:cracking",
 				"change": 1
 			},
 			{
@@ -42,7 +42,7 @@
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:cracking",
+				"resource": "dsmorigins:cracking",
 				"comparison": "!=",
 				"compare_to": 7
 			}

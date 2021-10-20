@@ -18,7 +18,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 20
 						},
 						{
@@ -26,7 +26,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -44,7 +44,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 19
 						},
 						{
@@ -52,7 +52,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -70,7 +70,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 18
 						},
 						{
@@ -78,7 +78,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -96,7 +96,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 17
 						},
 						{
@@ -104,7 +104,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -122,7 +122,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 16
 						},
 						{
@@ -130,7 +130,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -148,7 +148,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 15
 						},
 						{
@@ -156,7 +156,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -174,7 +174,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 14
 						},
 						{
@@ -182,7 +182,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -200,7 +200,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 13
 						},
 						{
@@ -208,7 +208,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -226,7 +226,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 12
 						},
 						{
@@ -234,7 +234,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -252,7 +252,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 11
 						},
 						{
@@ -260,7 +260,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -278,7 +278,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 10
 						},
 						{
@@ -286,7 +286,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -304,7 +304,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 9
 						},
 						{
@@ -312,7 +312,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -330,7 +330,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 8
 						},
 						{
@@ -338,7 +338,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -356,7 +356,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 7
 						},
 						{
@@ -364,7 +364,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -382,7 +382,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 6
 						},
 						{
@@ -390,7 +390,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -408,7 +408,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 5
 						},
 						{
@@ -416,7 +416,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -434,7 +434,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 4
 						},
 						{
@@ -442,7 +442,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -460,7 +460,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 3
 						},
 						{
@@ -468,7 +468,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -486,7 +486,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 2
 						},
 						{
@@ -494,7 +494,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}
@@ -512,7 +512,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "extraorigins:mining_frenzy_resource",
+							"resource": "dsmorigins:mining_frenzy_resource",
 							"change": 1
 						},
 						{
@@ -520,7 +520,7 @@
 							"ticks": 400,
 							"action": {
 								"type": "origins:change_resource",
-								"resource": "extraorigins:mining_frenzy_resource",
+								"resource": "dsmorigins:mining_frenzy_resource",
 								"change": -20
 							}
 						}

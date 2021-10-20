@@ -1,8 +1,11 @@
 {
-	"type": "origins:shader",
-	"shader": "extraorigins:shaders/post/transparency.json",
-	"condition": {
-		"type": "origins:power_active",
-		"power": "extraorigins:night_vision_toggle"
+	"type": "origins:multiple",
+	"shader": {
+		"type": "origins:shader",
+		"shader": "minecraft:shaders/post/pencil.json",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "dsmorigins:night_vision_toggle"
+		}
 	}
 }

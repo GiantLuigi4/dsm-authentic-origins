@@ -5,11 +5,11 @@
 		"conditions": [
 			{
 				"type": "origins:origin",
-				"origin": "extraorigins:keeper"
+				"origin": "dsmorigins:keeper"
 			},
 			{
 				"type": "origins:origin",
-				"origin": "extraorigins:kobold"
+				"origin": "dsmorigins:kobold"
 			}
 		]
 	},

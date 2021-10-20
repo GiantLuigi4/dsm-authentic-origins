@@ -3,6 +3,6 @@
 	"strength": 1,
 	"condition": {
 		"type": "origins:power_active",
-		"power": "extraorigins:night_vision_toggle"
+		"power": "dsmorigins:night_vision_toggle"
 	}
 }

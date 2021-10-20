@@ -19,7 +19,7 @@
 					"item_condition": {
 						"type": "origins:ingredient",
 						"ingredient": {
-							"tag": "extraorigins:pickaxes"
+							"tag": "dsmorigins:pickaxes"
 						}
 					}
 				},
@@ -55,7 +55,7 @@
 					"item_condition": {
 						"type": "origins:ingredient",
 						"ingredient": {
-							"tag": "extraorigins:pickaxes"
+							"tag": "dsmorigins:pickaxes"
 						}
 					}
 				},
@@ -91,7 +91,7 @@
 					"item_condition": {
 						"type": "origins:ingredient",
 						"ingredient": {
-							"tag": "extraorigins:pickaxes"
+							"tag": "dsmorigins:pickaxes"
 						}
 					}
 				},
@@ -127,7 +127,7 @@
 					"item_condition": {
 						"type": "origins:ingredient",
 						"ingredient": {
-							"tag": "extraorigins:pickaxes"
+							"tag": "dsmorigins:pickaxes"
 						}
 					}
 				},
@@ -163,7 +163,7 @@
 					"item_condition": {
 						"type": "origins:ingredient",
 						"ingredient": {
-							"tag": "extraorigins:pickaxes"
+							"tag": "dsmorigins:pickaxes"
 						}
 					}
 				},

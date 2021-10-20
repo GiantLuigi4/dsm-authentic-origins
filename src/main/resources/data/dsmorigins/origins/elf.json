@@ -2,9 +2,9 @@
   "powers": [
 	"dsmorigins:wild_expert",
     "dsmorigins:bow_master",
+    "dsmorigins:accessories",
 	"dsmorigins:not_swimmer",
     "dsmorigins:gravely_fear",
-    "dsmorigins:flammable",
     "dsmorigins:enchanted_arrows_recipe",
     "dsmorigins:allergic"
   ],

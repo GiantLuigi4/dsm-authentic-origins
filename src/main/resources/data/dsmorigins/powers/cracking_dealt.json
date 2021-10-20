@@ -2,7 +2,7 @@
 	"type": "origins:self_action_when_hit",
 	"entity_action": {
 			"type": "origins:change_resource",
-			"resource": "extraorigins:cracking",
+			"resource": "dsmorigins:cracking",
 			"change": -1
 	},
 	"damage_condition": {

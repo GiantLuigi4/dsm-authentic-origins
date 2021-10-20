@@ -6,7 +6,7 @@
 	},
 	"condition": {
 		"type": "origins:resource",
-		"resource": "extraorigins:mining_frenzy_resource",
+		"resource": "dsmorigins:mining_frenzy_resource",
 		"comparison": "!=",
 		"compare_to": 0
 	}

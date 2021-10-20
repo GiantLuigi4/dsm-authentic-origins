@@ -44,7 +44,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -93,7 +93,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -142,7 +142,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -170,7 +170,7 @@
 			"conditions": [
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				},
 				{
 					"type": "origins:block_in_radius",
@@ -243,7 +243,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -292,7 +292,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -341,7 +341,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -390,7 +390,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -439,7 +439,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				}
 			]
 		}
@@ -467,7 +467,7 @@
 			"conditions": [
 				{
 					"type": "origins:power_active",
-					"power": "extraorigins:ore_smell_toggle"
+					"power": "dsmorigins:ore_smell_toggle"
 				},
 				{
 					"type": "origins:block_in_radius",
