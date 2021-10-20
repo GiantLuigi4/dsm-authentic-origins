@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dsmorigins",
   "version": "${version}",
 
   "name": "Origins Based Mod",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.sonicjdf.dsmorigins.DSMOrigins"
     ]
   },
   "mixins": [
