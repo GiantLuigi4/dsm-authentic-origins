@@ -1,8 +1,0 @@
-{
-	"type": "origins:modify_projectile_damage",
-	"hidden": true,
-	"modifier": {
-		"operation": "multiply_total",
-		"value": -0.9
-	}
-}

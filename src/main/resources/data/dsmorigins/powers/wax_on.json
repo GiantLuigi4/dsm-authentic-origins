@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "extraorigins:waxed",
+				"resource": "dsmorigins:waxed",
 				"change": 1
 			},
 			{
@@ -37,7 +37,7 @@
 		"conditions": [
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:waxed",
+				"resource": "dsmorigins:waxed",
 				"comparison": "==",
 				"compare_to": 1
 			},
@@ -47,7 +47,7 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "extraorigins:wax"
+						"tag": "dsmorigins:wax"
 					}
 				}
 			}

@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"change": -1
 			},
 			{
@@ -38,7 +38,7 @@
 		"conditions": [
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:waxed",
+				"resource": "dsmorigins:waxed",
 				"comparison": "!=",
 				"compare_to": 2
 			},
@@ -48,13 +48,13 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "extraorigins:axes"
+						"tag": "dsmorigins:axes"
 					}
 				}
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "!=",
 				"compare_to": 0
 			}

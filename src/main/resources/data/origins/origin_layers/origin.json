@@ -1,12 +1,9 @@
 {
   "replace": false,
   "origins": [
-    "extraorigins:mushlin",
-    "extraorigins:keeper",
-    "extraorigins:piglin",
-    "extraorigins:kobold",
-    "extraorigins:elf",
-    "extraorigins:fairy",
-    "extraorigins:floran"
+    "dsmorigins:mushlin",
+    "dsmorigins:keeper",
+    "dsmorigins:kobold",
+    "dsmorigins:elf"
   ]
 }

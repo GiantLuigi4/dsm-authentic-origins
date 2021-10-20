@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"change": -1
 			},
 			{
@@ -47,7 +47,7 @@
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "!=",
 				"compare_to": 0
 			}

@@ -1,7 +1,148 @@
 {
-	"type": "origins:model_color",
-	"red": 0.8,
-	"green": 0.5,
-	"blue": 0.2,
-	"alpha": 1
+	"type": "origins:multiple",
+	"copper1": {
+		"type": "origins:model_color",
+		"red": 1,
+		"green": 0.7,
+		"blue": 0.4,
+		"alpha": 1,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 4
+				}
+			]
+		}
+	},
+	"copper2": {
+		"type": "origins:model_color",
+		"red": 0.8,
+		"green": 0.8,
+		"blue": 0.5,
+		"alpha": 1,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 6
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 8
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 9
+				}
+			]
+		}
+	},
+	"copper3": {
+		"type": "origins:model_color",
+		"red": 0.53,
+		"green": 0.65,
+		"blue": 0.5,
+		"alpha": 1,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 10
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 11
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 12
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 13
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 14
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": "==",
+					"compare_to": 15
+				}
+			]
+		}
+	},
+	"copper4": {
+		"type": "origins:model_color",
+		"red": 0.4,
+		"green": 0.6,
+		"blue": 0.6,
+		"alpha": 1,
+		"condition": {
+					"type": "origins:resource",
+					"resource": "dsmorigins:decaystore",
+					"comparison": ">",
+					"compare_to": 15
+		}
+	}
 }

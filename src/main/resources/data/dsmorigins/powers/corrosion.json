@@ -72,7 +72,7 @@
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "<",
 				"compare_to": 10
 			}

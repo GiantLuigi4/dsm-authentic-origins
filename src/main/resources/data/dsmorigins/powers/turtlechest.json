@@ -22,7 +22,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "extraorigins:leather"
+					"tag": "dsmorigins:leather"
 				}
 			}
 		}
@@ -49,7 +49,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "extraorigins:golden_armor"
+					"tag": "dsmorigins:golden_armor"
 				}
 			}
 		}
@@ -76,7 +76,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "extraorigins:chainmail"
+					"tag": "dsmorigins:chainmail"
 				}
 			}
 		}
@@ -103,7 +103,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "extraorigins:iron"
+					"tag": "dsmorigins:iron"
 				}
 			}
 		}
@@ -130,7 +130,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "extraorigins:diamond"
+					"tag": "dsmorigins:diamond"
 				}
 			}
 		}
@@ -157,7 +157,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "extraorigins:netherite_armor"
+					"tag": "dsmorigins:netherite_armor"
 				}
 			}
 		}
