@@ -1,0 +1,9 @@
+{
+	"type": "origins:restrict_armor",
+	"hidden": true,
+	"feet": {
+		"type": "origins:nbt",
+		"nbt": "{AccessoryNote:1b}"
+	}
+}
+

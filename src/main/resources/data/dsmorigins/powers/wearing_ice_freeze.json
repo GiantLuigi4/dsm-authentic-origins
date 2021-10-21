@@ -1,5 +1,6 @@
 {
 	"type": "origins:multiple",
+	"hidden": true,
 	"freeze": {
 		"type": "origins:freeze",
 		"condition": {
@@ -16,6 +17,49 @@
 			"resource": "dsmorigins:accessoriessaver",
 			"comparison": "==",
 			"compare_to": 2
+		}
+	},
+	"lava_vision": {
+		"type": "origins:lava_vision",
+		"s": 0.125,
+		"v": 2,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:status_effect",
+					"inverted": true,
+					"effect": "minecraft:fire_resistance",
+					"min_amplifier": 0
+				}
+			]
+		}
+	},
+	"lava_vision_stronger": {
+		"type": "origins:lava_vision",
+		"s": 0,
+		"v": 4,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:status_effect",
+					"effect": "minecraft:fire_resistance",
+					"min_amplifier": 0
+				}
+			]
 		}
 	},
 	"frost_immunity": {

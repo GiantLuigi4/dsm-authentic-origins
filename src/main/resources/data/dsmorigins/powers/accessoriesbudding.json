@@ -1,5 +1,11 @@
 {
 	"type": "origins:item_on_item",
+	"badges": [
+		{
+			"sprite": "dsmorigins:textures/gui/badge/budding.png",
+			"text": "Right click a Budding Amethyst with a lead to create me!"
+		}
+	],
 	"using_item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {

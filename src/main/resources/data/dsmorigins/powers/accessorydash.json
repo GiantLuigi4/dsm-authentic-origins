@@ -1,5 +1,11 @@
 {
 	"type": "origins:item_on_item",
+	"badges": [
+		{
+			"sprite": "dsmorigins:textures/gui/badge/dash.png",
+			"text": "Right click a Piston with a lever to create me!"
+		}
+	],
 	"using_item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {

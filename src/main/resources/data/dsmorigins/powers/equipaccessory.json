@@ -1,6 +1,5 @@
 {
 	"type": "origins:active_self",
-	"hidden": true,
 	"key": {
 		"key": "key.use"
 	},

@@ -1,5 +1,11 @@
 {
 	"type": "origins:item_on_item",
+	"badges": [
+		{
+			"sprite": "dsmorigins:textures/gui/badge/barter.png",
+			"text": "Right click a Emerald with a Nether Star to create me!"
+		}
+	],
 	"using_item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {

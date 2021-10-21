@@ -1,5 +1,6 @@
 {
 	"type": "origins:resource",
+	"hidden": true,
 	"min": 0,
 	"max": 7,
 	"hud_render": {

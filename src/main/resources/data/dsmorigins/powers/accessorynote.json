@@ -1,5 +1,11 @@
 {
 	"type": "origins:item_on_item",
+	"badges": [
+		{
+			"sprite": "dsmorigins:textures/gui/badge/noteboot.png",
+			"text": "Right click Leather Boots with a noteblock to create me!"
+		}
+	],
 	"using_item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {

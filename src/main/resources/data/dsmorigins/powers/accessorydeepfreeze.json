@@ -1,5 +1,11 @@
 {
 	"type": "origins:item_on_item",
+	"badges": [
+		{
+			"sprite": "dsmorigins:textures/gui/badge/freeze.png",
+			"text": "Right click Blue Ice with a chain to create me!"
+		}
+	],
 	"using_item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {

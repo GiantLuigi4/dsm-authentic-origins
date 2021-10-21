@@ -1,5 +1,6 @@
 {
 	"type": "origins:conditioned_attribute",
+	"hidden": true,
 	"modifier": {
 		"attribute": "minecraft:generic.attack_speed",
 		"operation": "multiply_total",

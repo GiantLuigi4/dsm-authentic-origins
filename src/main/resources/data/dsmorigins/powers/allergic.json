@@ -1,7 +1,7 @@
 {
 	"type": "origins:modify_damage_dealt",
 	"modifier": {
-		"name": "Extra damage when submerged",
+		"name": "Deal less damage with Melee Weapons",
 		"operation": "multiply_total",
 		"value": -0.2
 	}
