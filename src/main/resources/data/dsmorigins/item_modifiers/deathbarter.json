@@ -4,7 +4,7 @@
     "entity": "this",
     "lore": [
       {
-        "text": "Elf Origin: If you have 64 Emeralds in offhand, use them & prevent death. ONE USE",
+        "text": "Elf Origin: Prevent death if you are holding 50 emeralds in offhand. ONE USE",
         "color": "dark_purple",
         "italic": false
       }

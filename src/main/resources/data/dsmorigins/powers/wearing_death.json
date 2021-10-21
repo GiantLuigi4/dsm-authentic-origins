@@ -12,7 +12,7 @@
 						"equipment_slot": "offhand",
 						"action": {
 							"type": "origins:consume",
-							"amount": 64
+							"amount": 50
 						}
 					},
 					{
@@ -41,8 +41,8 @@
 					"conditions": [
 						{
 							"type": "origins:amount",
-							"comparison": "==",
-							"compare_to": 64
+							"comparison": ">=",
+							"compare_to": 50
 						},
 						{
 							"type": "origins:ingredient",
