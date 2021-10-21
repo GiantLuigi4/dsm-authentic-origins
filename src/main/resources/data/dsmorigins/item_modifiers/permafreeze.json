@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Elf Origin: Freezes player, immunity to lava/freeze damage.",
+        "color": "light_purple",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "Deep-Freeze Necklace",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{AccessoryFreeze:1b}"
+  }
+]

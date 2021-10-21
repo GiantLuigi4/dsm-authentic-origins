@@ -1,0 +1,46 @@
+{
+	"type": "origins:item_on_item",
+	"using_item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:note_block"
+		}
+	},
+	"on_item_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:leather_boots"
+				}
+			},
+			{
+					"type": "origins:nbt",
+					"nbt": "{AccessoryNote:1b}",
+					"inverted": true
+			}
+		]
+	},
+	"result": {
+		"item": "minecraft:leather_boots"
+	},
+	"result_item_action": {
+		"type": "origins:modify",
+		"modifier": "dsmorigins:noteboots"
+	},
+	"using_item_action": {
+		"type": "origins:consume",
+		"amount": 1
+	},
+	"on_item_action": {
+		"type": "origins:consume",
+		"amount": 1
+	},
+	"entity_action": {
+		"type": "origins:play_sound",
+		"sound": "minecraft:block.note_block.bell",
+		"volume": 0.45,
+		"pitch": 1
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"type": "origins:item_on_item",
+	"using_item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:string"
+		}
+	},
+	"on_item_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:amethyst_shard"
+				}
+			},
+			{
+					"type": "origins:nbt",
+					"nbt": "{AccessoryNecklace:1b}",
+					"inverted": true
+			}
+		]
+	},
+	"result": {
+		"item": "minecraft:amethyst_shard"
+	},
+	"result_item_action": {
+		"type": "origins:modify",
+		"modifier": "dsmorigins:necklace"
+	},
+	"using_item_action": {
+		"type": "origins:consume",
+		"amount": 1
+	},
+	"on_item_action": {
+		"type": "origins:consume",
+		"amount": 1
+	},
+	"entity_action": {
+		"type": "origins:play_sound",
+		"sound": "minecraft:entity.zombie.break_wooden_door",
+		"volume": 0.45,
+		"pitch": 2
+	}
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Elf Origin: If you have 64 Emeralds in offhand, use them & prevent death. ONE USE",
+        "color": "dark_purple",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "Death Barter",
+        "color": "red",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{AccessoryDeath:1b}"
+  }
+]

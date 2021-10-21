@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Elf Origin: Immunity to poison, provides regeneration",
+        "color": "dark_purple",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "Enchanted Amethyst Necklace",
+        "color": "red",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{AccessoryBudding:1b}"
+  }
+]

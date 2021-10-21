@@ -1,0 +1,30 @@
+{
+	"type": "origins:multiple",
+	"slowness": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.02,
+			"name": "Increased sprinting speed"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": "!=",
+			"compare_to": 0
+		}
+	},
+	"gravity": {
+		"type": "origins:modify_falling",
+		"velocity": 0.01,
+		"take_fall_damage": false,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": "!=",
+			"compare_to": 0
+		}
+	}
+}

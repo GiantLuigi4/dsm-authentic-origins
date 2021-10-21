@@ -20,7 +20,8 @@
     "dsmorigins:constantfood",
     "dsmorigins:waterignore",
     "dsmorigins:coppered",
-    "dsmorigins:waterslowness"
+    "dsmorigins:waterslowness",
+    "dsmorigins:copperheal"
   ],
   "icon": "copper_block",
   "order": 1,

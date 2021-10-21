@@ -1,0 +1,54 @@
+{
+	"type": "origins:action_on_being_used",
+	"bientity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "dsmorigin:decaystore",
+							"change": -1
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "particle minecraft:wax_off ~ ~ ~ 0.7 1.2 0.7 0.5 10",
+							"permission_level": 4
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "playsound minecraft:block.copper.place player @p",
+							"permission_level": 4
+						}
+					]
+				}
+			},
+			{
+				"type": "origins:actor_action",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:copper_ingot 1"
+				}
+			}
+		]
+	},
+	"bientity_condition": {
+		"type": "origins:actor_condition",
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:copper_ingot"
+				}
+			}
+		}
+	},
+	"hands": [
+		"main_hand"
+	]
+}

@@ -8,18 +8,21 @@
 		"type": "origins:and",
 		"actions": [
 			{
-				"type": "origins:add_velocity",
-				"z": 1.5,
-				"space": "local"
+				"type": "origins:play_sound",
+				"sound": "minecraft:block.piston.contract"
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "particle minecraft:cloud ~ ~ ~ 1 1 1 0 1000",
-				"permission_level": 4
+				"command": "give @s minecraft:piston"
 			},
 			{
-				"type": "origins:play_sound",
-				"sound": "minecraft:block.piston.extend"
+				"type": "origins:execute_command",
+				"command": "give @s minecraft:lever"
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "dsmorigins:accessoriessaver",
+				"change": -6
 			}
 		]
 	},
@@ -33,13 +36,13 @@
 				"compare_to": 6
 			},
 			{
-				"type": "origins:sneaking",
-				"inverted": true
+				"type": "origins:sneaking"
 			}
 		]
 	},
-	"cooldown": 300,
+	"cooldown": 0,
 	"hud_render": {
-		"should_render": true
+		"should_render": false
 	}
 }
+

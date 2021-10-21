@@ -1,0 +1,53 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"key": {
+		"key": "key.use"
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:item.armor.equip_generic"
+			},
+			{
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"action": {
+					"type": "origins:consume",
+					"amount": 1
+				}
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "dsmorigins:accessoriessaver",
+				"change": 1
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:accessoriessaver",
+				"comparison": "==",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:nbt",
+					"nbt": "{AccessoryNecklace:1b}"
+				}
+			}
+		]
+	},
+	"cooldown": 0,
+	"hud_render": {
+		"should_render": false
+	}
+}
+

@@ -1,0 +1,559 @@
+{
+	"type": "origins:multiple",
+	"sound": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:choice",
+			"actions": [
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.harp",
+						"volume": 0.5,
+						"pitch": 0.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.harp",
+						"volume": 0.5,
+						"pitch": 1.25
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.harp",
+						"volume": 0.5,
+						"pitch": 1
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.harp",
+						"volume": 0.5,
+						"pitch": 1.5
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.harp",
+						"volume": 0.5,
+						"pitch": 1.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.harp",
+						"volume": 0.5,
+						"pitch": 2
+					},
+					"weight": 10
+				}
+			]
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:swimming",
+					"inverted": true
+				},
+				{
+					"type": "origins:sprinting",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		}
+	},
+	"sprintsound": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:choice",
+			"actions": [
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bit",
+						"volume": 0.5,
+						"pitch": 0.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bit",
+						"volume": 0.5,
+						"pitch": 1.25
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bit",
+						"volume": 0.5,
+						"pitch": 1
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bit",
+						"volume": 0.5,
+						"pitch": 1.5
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bit",
+						"volume": 0.5,
+						"pitch": 1.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bit",
+						"volume": 0.5,
+						"pitch": 2
+					},
+					"weight": 10
+				}
+			]
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:swimming",
+					"inverted": true
+				},
+				{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		}
+	},
+	"swimmingsound": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:choice",
+			"actions": [
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.chime",
+						"volume": 0.5,
+						"pitch": 0.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.chime",
+						"volume": 0.5,
+						"pitch": 1.25
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.chime",
+						"volume": 0.5,
+						"pitch": 1
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.chime",
+						"volume": 0.5,
+						"pitch": 1.5
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.chime",
+						"volume": 0.5,
+						"pitch": 1.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.chime",
+						"volume": 0.5,
+						"pitch": 2
+					},
+					"weight": 10
+				}
+			]
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:swimming"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				}
+			]
+		}
+	},
+	"sneaksound": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:choice",
+			"actions": [
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bass",
+						"volume": 0.5,
+						"pitch": 0.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bass",
+						"volume": 0.5,
+						"pitch": 1.25
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bass",
+						"volume": 0.5,
+						"pitch": 1
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bass",
+						"volume": 0.5,
+						"pitch": 1.5
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bass",
+						"volume": 0.5,
+						"pitch": 1.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bass",
+						"volume": 0.5,
+						"pitch": 2
+					},
+					"weight": 10
+				}
+			]
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:sprinting",
+					"inverted": true
+				},
+				{
+					"type": "origins:swimming",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		}
+	},
+	"sprintingsneaksound": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:choice",
+			"actions": [
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.basedrum",
+						"volume": 0.5,
+						"pitch": 0.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.basedrum",
+						"volume": 0.5,
+						"pitch": 1.25
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.basedrum",
+						"volume": 0.5,
+						"pitch": 1
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.basedrum",
+						"volume": 0.5,
+						"pitch": 1.5
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.basedrum",
+						"volume": 0.5,
+						"pitch": 1.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.basedrum",
+						"volume": 0.5,
+						"pitch": 2
+					},
+					"weight": 10
+				}
+			]
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:swimming",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		}
+	},
+	"airsound": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:choice",
+			"actions": [
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bell",
+						"volume": 0.5,
+						"pitch": 0.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bell",
+						"volume": 0.5,
+						"pitch": 1.25
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bell",
+						"volume": 0.5,
+						"pitch": 1
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bell",
+						"volume": 0.5,
+						"pitch": 1.5
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bell",
+						"volume": 0.5,
+						"pitch": 1.75
+					},
+					"weight": 10
+				},
+				{
+					"element": {
+						"type": "origins:play_sound",
+						"sound": "block.note_block.bell",
+						"volume": 0.5,
+						"pitch": 2
+					},
+					"weight": 10
+				}
+			]
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:swimming",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"note": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle minecraft:note ~ ~ ~ 0.2 0 0.2 1 1",
+			"permission_level": 4
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:moving"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "dsmorigins:accessoriessaver",
+					"comparison": "==",
+					"compare_to": 3
+				}
+			]
+		}
+	}
+}

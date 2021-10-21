@@ -1,0 +1,63 @@
+{
+	"type": "origins:prevent_death",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:clear_effect"
+			},
+			{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "offhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 64
+						}
+					},
+					{
+						"type": "origins:heal",
+						"amount": 40
+					},
+					{
+						"type": "origins:change_resource",
+						"resource": "dsmorigins:accessoriessaver",
+						"change": -4
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:entity.wither.death"
+					}
+				]
+			},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:amount",
+							"comparison": "==",
+							"compare_to": 64
+						},
+						{
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:emerald"
+							}
+						}
+					]
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:accessoriessaver",
+				"comparison": "==",
+				"compare_to": 4
+			}
+		]
+	}
+}

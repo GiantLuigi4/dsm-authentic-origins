@@ -8,18 +8,21 @@
 		"type": "origins:and",
 		"actions": [
 			{
-				"type": "origins:add_velocity",
-				"z": 1.5,
-				"space": "local"
+				"type": "origins:play_sound",
+				"sound": "minecraft:item.armor.equip_leather"
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "particle minecraft:cloud ~ ~ ~ 1 1 1 0 1000",
-				"permission_level": 4
+				"command": "give @s minecraft:amethyst_shard"
 			},
 			{
-				"type": "origins:play_sound",
-				"sound": "minecraft:block.piston.extend"
+				"type": "origins:execute_command",
+				"command": "give @s minecraft:string"
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "dsmorigins:accessoriessaver",
+				"change": -1
 			}
 		]
 	},
@@ -30,16 +33,16 @@
 				"type": "origins:resource",
 				"resource": "dsmorigins:accessoriessaver",
 				"comparison": "==",
-				"compare_to": 6
+				"compare_to": 1
 			},
 			{
-				"type": "origins:sneaking",
-				"inverted": true
+				"type": "origins:sneaking"
 			}
 		]
 	},
-	"cooldown": 300,
+	"cooldown": 0,
 	"hud_render": {
-		"should_render": true
+		"should_render": false
 	}
 }
+

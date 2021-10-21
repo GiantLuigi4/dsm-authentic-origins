@@ -1,0 +1,11 @@
+{
+	"type": "origins:effect_immunity",
+	"hidden": true,
+	"effect": "minecraft:poison",
+	"condition": {
+		"type": "origins:resource",
+		"resource": "dsmorigins:accessoriessaver",
+		"comparison": "==",
+		"compare_to": 1
+	}
+}

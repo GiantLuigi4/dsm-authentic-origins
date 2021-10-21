@@ -1,0 +1,28 @@
+{
+	"type": "origins:multiple",
+	"immunity": {
+		"type": "origins:effect_immunity",
+		"hidden": true,
+		"effect": "minecraft:poison",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "dsmorigins:accessoriessaver",
+			"comparison": "==",
+			"compare_to": 7
+		}
+	},
+	"regen": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:heal",
+			"amount": 1
+		},
+		"interval": 300,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "dsmorigins:accessoriessaver",
+			"comparison": "==",
+			"compare_to": 7
+		}
+	}
+}

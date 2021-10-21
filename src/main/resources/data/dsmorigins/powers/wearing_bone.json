@@ -1,0 +1,16 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_speed",
+		"operation": "multiply_total",
+		"value": 0.1,
+		"name": "Increased sprinting speed"
+	},
+	"tick_rate": 20,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "dsmorigins:accessoriessaver",
+		"comparison": "==",
+		"compare_to": 5
+	}
+}
