@@ -1,0 +1,17 @@
+{
+	"type": "origins:conditioned_attribute",
+	"hidden": true,
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": 0.1,
+		"name": "Increased speed while under lightning"
+	},
+	"tick_rate": 10,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "dsmorigins:lightningcharged",
+		"comparison": ">=",
+		"compare_to": 1
+	}
+}

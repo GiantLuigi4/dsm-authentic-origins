@@ -9,6 +9,7 @@
     "dsmorigins:decayadd",
     "dsmorigins:decayhot",
     "dsmorigins:decayfire",
+    "dsmorigins:decayrain",
     "dsmorigins:rustreset",
     "dsmorigins:wax_off",
     "dsmorigins:wax_on",
@@ -19,7 +20,11 @@
     "dsmorigins:no_food",
     "dsmorigins:constantfood",
     "dsmorigins:waterignore",
-    "dsmorigins:copperheal"
+    "dsmorigins:copperheal",
+    "dsmorigins:lightning",
+    "dsmorigins:lightningcharged",
+    "dsmorigins:lightningdecrease",
+    "dsmorigins:lightningability"
   ],
   "icon": "copper_block",
   "order": 1,

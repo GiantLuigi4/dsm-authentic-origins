@@ -6,7 +6,8 @@
     "dsmorigins:gravely_fear",
     "dsmorigins:enchanted_arrows_recipe",
     "dsmorigins:allergic",
-    
+
+    "dsmorigins:accessoryreset",
     "dsmorigins:noequipaccessory",
     "dsmorigins:equipaccessory",
     "dsmorigins:unequipaccessory",
@@ -17,6 +18,7 @@
     "dsmorigins:unequipaccessoryfreeze",
     "dsmorigins:equipaccessoryfreeze",
     "dsmorigins:accessorydeepfreeze",
+    "dsmorigins:accessorydeepfreezeparticle",
     "dsmorigins:unequipaccessorynote",
     "dsmorigins:wearing_note_boots",
     "dsmorigins:equipaccessorynote",

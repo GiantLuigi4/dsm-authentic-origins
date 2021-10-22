@@ -4,10 +4,32 @@
 	"entity_action": {
 		"type": "origins:change_resource",
 		"resource": "dsmorigins:decaystore",
-		"change": -1
+		"change": 1
 	},
-	"interval": 350,
+	"interval": 300,
 	"condition": {
-		"type": "origins:in_rain"
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:in_rain"
+					},
+					{
+						"type": "origins:fluid_height",
+						"fluid": "minecraft:water",
+						"comparison": "!=",
+						"compare_to": 0
+					}
+				]
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:lightningcharged",
+				"comparison": "<",
+				"compare_to": 1
+			}
+		]
 	}
 }

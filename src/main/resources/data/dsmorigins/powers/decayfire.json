@@ -8,6 +8,17 @@
 	},
 	"interval": 20,
 	"condition": {
-		"type": "origins:on_fire"
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:on_fire"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:lightningcharged",
+				"comparison": "<",
+				"compare_to": 1
+			}
+		]
 	}
 }

@@ -6,5 +6,29 @@
 		"resource": "dsmorigins:decaystore",
 		"change": 1
 	},
-	"interval": 3000
+	"interval": 3000,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "dsmorigins:lightningcharged",
+				"comparison": "<",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:in_rain",
+				"inverted": true
+			},
+			{
+				"type": "origins:biome",
+				"inverted": true,
+				"condition": {
+					"type": "origins:temperature",
+					"comparison": ">=",
+					"compare_to": 2
+				}
+			}
+		]
+	}
 }

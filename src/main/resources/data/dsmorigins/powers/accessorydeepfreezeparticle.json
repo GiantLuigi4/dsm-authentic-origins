@@ -1,0 +1,12 @@
+{
+	"type": "origins:particle",
+	"hidden": true,
+	"particle": "minecraft:snowflake",
+	"frequency": 1,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "dsmorigins:accessoriessaver",
+		"comparison": "==",
+		"compare_to": 2
+	}
+}
