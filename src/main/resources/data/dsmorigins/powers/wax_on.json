@@ -47,7 +47,7 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "dsmorigins:wax"
+						"item": "minecraft:honeycomb"
 					}
 				}
 			}

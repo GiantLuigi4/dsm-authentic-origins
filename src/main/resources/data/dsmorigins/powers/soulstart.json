@@ -1,9 +1,0 @@
-{
-	"type": "origins:action_on_callback",
-	"entity_action_chosen": {
-		"type": "origins:change_resource",
-		"resource": "extraorigins:souls",
-		"change": 20
-	},
-	"execute_chosen_when_orb": true
-}

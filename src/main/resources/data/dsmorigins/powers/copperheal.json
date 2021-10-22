@@ -1,5 +1,6 @@
 {
 	"type": "origins:action_on_being_used",
+	"hidden": true,
 	"bientity_action": {
 		"type": "origins:and",
 		"actions": [
@@ -10,7 +11,7 @@
 					"actions": [
 						{
 							"type": "origins:change_resource",
-							"resource": "dsmorigin:decaystore",
+							"resource": "dsmorigins:decaystore",
 							"change": -1
 						},
 						{
@@ -22,6 +23,10 @@
 							"type": "origins:execute_command",
 							"command": "playsound minecraft:block.copper.place player @p",
 							"permission_level": 4
+						},
+						{
+							"type": "origins:heal",
+							"amount": 2
 						}
 					]
 				}
@@ -36,19 +41,40 @@
 		]
 	},
 	"bientity_condition": {
-		"type": "origins:actor_condition",
-		"condition": {
-			"type": "origins:equipped_item",
-			"equipment_slot": "mainhand",
-			"item_condition": {
-				"type": "origins:ingredient",
-				"ingredient": {
-					"item": "minecraft:copper_ingot"
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "dsmorigins:decaystore",
+							"comparison": "!=",
+							"compare_to": 0
+						},
+						{
+							"type": "origins:relative_health",
+							"comparison": "!=",
+							"compare_to": 1
+						}
+					]
+				}
+			},
+			{
+				"type": "origins:actor_condition",
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:copper_ingot"
+						}
+					}
 				}
 			}
-		}
-	},
-	"hands": [
-		"main_hand"
-	]
+		]
+	}
 }

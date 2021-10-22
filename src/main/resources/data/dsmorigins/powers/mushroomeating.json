@@ -3,7 +3,7 @@
   "item_condition": {
     "type": "origins:ingredient",
     "ingredient": {
-      "tag": "extraorigins:mushroom"
+      "tag": "dsmorigins:mushroom"
     }
   }
 }

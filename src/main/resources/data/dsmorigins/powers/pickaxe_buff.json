@@ -10,7 +10,7 @@
 		{
 			"attribute": "minecraft:generic.attack_speed",
 			"operation": "multiply_total",
-			"value": -0.50,
+			"value": -0.65,
 			"name": "Less Attack Speed"
 		}
 	],

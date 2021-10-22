@@ -31,7 +31,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "extraorigins:red_mushroom"
+            "item": "minecraft:red_mushroom"
           }
         }
       },
@@ -42,7 +42,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "extraorigins:crimson_fungus"
+            "item": "minecraft:crimson_fungus"
           }
         }
       },
@@ -53,7 +53,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "extraorigins:warped_fungus"
+            "item": "minecraft:warped_fungus"
           }
         }
       },
@@ -64,7 +64,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "extraorigins:brown_mushroom"
+            "item": "minecraft:brown_mushroom"
           }
         }
       },
@@ -74,7 +74,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "extraorigins:red_mushroom"
+            "item": "minecraft:red_mushroom"
           }
         }
       }

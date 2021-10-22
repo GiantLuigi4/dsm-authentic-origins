@@ -20,6 +20,10 @@
 			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:block.piston.extend"
+			},
+			{
+				"type": "origins:emit_game_event",
+				"event": "minecraft:piston_extend"
 			}
 		]
 	},

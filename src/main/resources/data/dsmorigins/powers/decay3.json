@@ -1,10 +1,16 @@
 {
-	"type": "origins:disable_regen",
+	"type": "origins:multiple",
 	"hidden": true,
-	"condition": {
-		"type": "origins:resource",
-		"resource": "extraorigins:decaystore",
-		"comparison": "==",
-		"compare_to": 20
+	"regen": {
+		"type": "origins:disable_regen"
+	},
+	"shaking": {
+		"type": "origins:shaking",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "dsmorigins:decaystore",
+			"comparison": "==",
+			"compare_to": 20
+		}
 	}
 }

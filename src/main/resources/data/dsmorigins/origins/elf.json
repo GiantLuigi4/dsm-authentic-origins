@@ -2,12 +2,11 @@
   "powers": [
 	"dsmorigins:wild_expert",
     "dsmorigins:bow_master",
-    "dsmorigins:accessories",
 	"dsmorigins:not_swimmer",
     "dsmorigins:gravely_fear",
     "dsmorigins:enchanted_arrows_recipe",
     "dsmorigins:allergic",
-
+    
     "dsmorigins:noequipaccessory",
     "dsmorigins:equipaccessory",
     "dsmorigins:unequipaccessory",

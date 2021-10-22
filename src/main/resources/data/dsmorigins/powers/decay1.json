@@ -1,12 +1,26 @@
 {
 	"type": "origins:conditioned_attribute",
 	"hidden": true,
-	"modifier": {
-		"attribute": "minecraft:generic.movement_speed",
-		"operation": "multiply_total",
-		"value": -0.05,
-		"name": "Increased sprinting speed"
-	},
+	"modifiers": [
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": -2
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.2
+		},
+		{
+			"name": "Origin modifier",
+			"attribute": "generic.attack_speed",
+			"operation": "multiply_total",
+			"value": -0.10
+		}
+	],
 	"tick_rate": 9,
 	"condition": {
 		"type": "origins:or",

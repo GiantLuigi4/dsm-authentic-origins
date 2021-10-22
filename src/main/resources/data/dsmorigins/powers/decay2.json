@@ -12,13 +12,13 @@
 			"name": "Origin modifier",
 			"attribute": "generic.movement_speed",
 			"operation": "multiply_total",
-			"value": -0.12
+			"value": -0.4
 		},
 		{
 			"name": "Origin modifier",
 			"attribute": "generic.attack_speed",
 			"operation": "multiply_total",
-			"value": -0.1
+			"value": -0.25
 		}
 	],
 	"tick_rate": 10,
@@ -27,39 +27,33 @@
 		"conditions": [
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "==",
 				"compare_to": 10
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "==",
 				"compare_to": 11
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "==",
 				"compare_to": 12
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "==",
 				"compare_to": 13
 			},
 			{
 				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"comparison": "==",
 				"compare_to": 14
-			},
-			{
-				"type": "origins:resource",
-				"resource": "extraorigins:decaystore",
-				"comparison": "==",
-				"compare_to": 15
 			}
 		]
 	}

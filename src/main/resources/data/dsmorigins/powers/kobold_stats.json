@@ -23,7 +23,7 @@
 			{
 				"name": "Origin modifier",
 				"attribute": "reach-entity-attributes:attack_range",
-				"operation": "addition",
+				"operation": "multiply_total",
 				"value": -0.15
 			}
 		]

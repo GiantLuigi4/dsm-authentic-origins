@@ -1,5 +1,9 @@
 {
 	"type": "origins:multiple",
+	"immunity": {
+		"type": "origins:effect_immunity",
+		"effect": "minecraft:hunger"
+	},
 	"copper1": {
 		"type": "origins:model_color",
 		"red": 1,
@@ -122,12 +126,6 @@
 					"resource": "dsmorigins:decaystore",
 					"comparison": "==",
 					"compare_to": 14
-				},
-				{
-					"type": "origins:resource",
-					"resource": "dsmorigins:decaystore",
-					"comparison": "==",
-					"compare_to": 15
 				}
 			]
 		}
@@ -141,7 +139,7 @@
 		"condition": {
 					"type": "origins:resource",
 					"resource": "dsmorigins:decaystore",
-					"comparison": ">",
+					"comparison": ">=",
 					"compare_to": 15
 		}
 	}

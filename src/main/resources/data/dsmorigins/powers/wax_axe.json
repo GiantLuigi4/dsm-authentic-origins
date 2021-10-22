@@ -23,11 +23,20 @@
 				"change": -1
 			},
 			{
+				"type": "origins:damage",
+				"amount": 2,
+				"source": {
+					"name": "generic",
+					"unblockable": true,
+					"bypasses_armor": true
+				}
+			},
+			{
 				"type": "origins:equipped_item_action",
 				"equipment_slot": "mainhand",
 				"action": {
 					"type": "origins:damage",
-					"amount": 1,
+					"amount": 2,
 					"ignore_unbreaking": false
 				}
 			}
@@ -48,7 +57,7 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "dsmorigins:axes"
+						"tag": "fabric:axes"
 					}
 				}
 			},

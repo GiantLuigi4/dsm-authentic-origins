@@ -3,8 +3,8 @@
   "id": "dsmorigins",
   "version": "${version}",
 
-  "name": "Origins Based Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "DrinkSomeMilk's Authentic Origins",
+  "description": "Adds in a few origins.. blah blah text here",
   "authors": [
     "DrinkSomeMilk"
   ],
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/icon/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -25,7 +25,9 @@
   "mixins": [
     "modid.mixins.json"
   ],
-
+  "custom": {
+    "modsoftheworld:splashes": "dsmorigins:splashes.txt"
+  },
   "depends": {
     "fabricloader": ">=0.11.3",
     "nbtcrafting": "*",

@@ -1,8 +1,8 @@
 {
 	"type": "origins:multiple",
 	"modify_size": {
-		"type": "extraorigins:modify_size",
-		"scale": 0.8
+		"type": "dsmorigins:rescale",
+		"scale": 0.48
 	},
 	"attribute_modifiers": {
 		"type": "origins:attribute",

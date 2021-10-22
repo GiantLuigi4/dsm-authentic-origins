@@ -22,7 +22,7 @@
 		"item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"tag": "extraorigins:brown_mushroom"
+				"item": "minecraft:brown_mushroom"
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 	"type": "origins:recipe",
 	"recipe": {
 		"type": "minecraft:crafting_shaped",
-		"id": "extraorigins:budding_amethyst",
+		"id": "dsmorigins:budding_amethyst",
 		"pattern": [
 			"$#$",
 			"#$#",
