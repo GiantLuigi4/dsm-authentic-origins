@@ -6,12 +6,12 @@
 		"actions": [
 			{
 				"type": "origins:change_resource",
-				"resource": "extraorigins:decaystore",
+				"resource": "dsmorigins:decaystore",
 				"change": -20
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "extraorigins:waxed",
+				"resource": "dsmorigins:waxed",
 				"change": -1
 			}
 		]
