@@ -2,7 +2,7 @@
 	"type": "origins:multiple",
 	"modify_size": {
 		"type": "dsmorigins:rescale",
-		"scale": 0.48
+		"scale": 0.74
 	},
 	"break_speed": {
 		"type": "origins:modify_break_speed",
