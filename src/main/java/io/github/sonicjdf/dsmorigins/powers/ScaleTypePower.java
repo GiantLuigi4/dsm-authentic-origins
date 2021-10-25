@@ -17,6 +17,7 @@ public class ScaleTypePower extends Power {
 		super(type, entity);
 		this.scaleTypes = scaleTypes;
 		this.scale = scale;
+		setTicking();
 	}
 	
 	@Override
