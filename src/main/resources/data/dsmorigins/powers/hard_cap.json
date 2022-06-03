@@ -37,6 +37,16 @@
       },
       {
         "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "fabric:helmets"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
         "inverted": true,
         "equipment_slot": "head",
         "item_condition": {

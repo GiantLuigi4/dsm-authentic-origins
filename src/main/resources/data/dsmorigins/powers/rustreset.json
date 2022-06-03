@@ -13,6 +13,18 @@
 				"type": "origins:change_resource",
 				"resource": "dsmorigins:waxed",
 				"change": -1
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale delay set pehkui:motion 0"
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "scale set pehuki:motion 0.9"
+				}
 			}
 		]
 	},

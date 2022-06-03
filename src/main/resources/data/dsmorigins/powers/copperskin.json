@@ -4,6 +4,10 @@
 		"type": "origins:effect_immunity",
 		"effect": "minecraft:hunger"
 	},
+	"size": {
+		"type": "dsmorigins:rescale",
+		"scale": 1.05
+	},
 	"copper1": {
 		"type": "origins:model_color",
 		"red": 1,

@@ -21,7 +21,7 @@
 			"value": -0.10
 		}
 	],
-	"tick_rate": 9,
+	"tick_rate": 10,
 	"condition": {
 		"type": "origins:or",
 		"conditions": [

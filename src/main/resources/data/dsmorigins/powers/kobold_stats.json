@@ -4,6 +4,7 @@
 		"type": "dsmorigins:rescale",
 		"scale": 0.74
 	},
+
 	"break_speed": {
 		"type": "origins:modify_break_speed",
 		"modifier": {

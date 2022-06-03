@@ -6,7 +6,7 @@
 		"resource": "dsmorigins:decaystore",
 		"change": 1
 	},
-	"interval": 3000,
+	"interval": 1800,
 	"condition": {
 		"type": "origins:and",
 		"conditions": [
