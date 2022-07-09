@@ -1,0 +1,11 @@
+{
+	"type": "origins:particle",
+	"particle": "minecraft:falling_spore_blossom",
+	"frequency": 8,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "dsmorigins:mushroom_infection_stacking_store",
+		"comparison": "<",
+		"compare_to": 20
+	}
+}

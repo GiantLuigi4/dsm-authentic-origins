@@ -24,7 +24,8 @@
     "dsmorigins:lightning",
     "dsmorigins:lightningcharged",
     "dsmorigins:lightningdecrease",
-    "dsmorigins:lightningability"
+    "dsmorigins:lightningability",
+    "dsmorigins:copperui"
   ],
   "icon": "copper_block",
   "order": 1,

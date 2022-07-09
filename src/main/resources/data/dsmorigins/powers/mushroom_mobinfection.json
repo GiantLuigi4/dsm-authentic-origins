@@ -1,0 +1,94 @@
+{
+	"type": "origins:multiple",
+	"tame": {
+		"type": "origins:action_on_hit",
+		"bientity_action": {
+			"type": "origins:tame"
+		}
+	},
+	"infect": {
+		"type": "origins:target_action_on_hit",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_particles",
+					"source": "dsmorigins:mushlin"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_sporespread",
+					"source": "dsmorigins:mushlin"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_immunity",
+					"source": "dsmorigins:mushlin"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_adrenaline",
+					"source": "dsmorigins:mushlin"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_skin",
+					"source": "dsmorigins:mushlin"
+				}
+			]
+		},
+		"target_condition": {
+					"type": "origins:tamed"
+		},
+		"cooldown": 1,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"infectnontame": {
+		"type": "origins:target_action_on_hit",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_infection_stacking_store",
+					"source": "dsmorigins:infection"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_skin_mobspecial",
+					"source": "dsmorigins:infection"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_infection_stacking",
+					"source": "dsmorigins:infection"
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "dsmorigins:mushroom_infection_increasing",
+					"source": "dsmorigins:infection"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+						"type": "origins:change_resource",
+						"resource": "dsmorigins:mushroom_infection_stacking_store",
+						"change": -20
+					}
+				}
+			]
+		},
+		"target_condition": {
+					"type": "origins:tamed",
+					"inverted": true
+		},
+		"cooldown": 1,
+		"hud_render": {
+			"should_render": false
+		}
+	}
+}

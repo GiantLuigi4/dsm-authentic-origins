@@ -1,0 +1,9 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "dsmorigins:mushroom_infection_stacking_store",
+		"change": 1
+	},
+	"interval": 10
+}

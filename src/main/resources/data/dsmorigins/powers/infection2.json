@@ -1,0 +1,74 @@
+{
+	"type": "origins:action_on_item_use",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:grant_power",
+				"power": "dsmorigins:mushroom_particles",
+				"source": "dsmorigins:mushlin"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "dsmorigins:infectiongrowth",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "dsmorigins:infectionresource1",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "dsmorigins:infectionhunger",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "dsmorigins:infection_shader",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "dsmorigins:infection_shader",
+				"source": "dsmorigins:freeze"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "title @p title {\"text\":\"You are Infected...\", \"bold\":true, \"italic\":false, \"color\":\"dark_green\"}"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "title @p subtitle {\"text\":\"To begin growing it requires food.\", \"bold\":true, \"italic\":false, \"color\":\"dark_green\"}"
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:nausea",
+					"duration": 200,
+					"amplifier": 0
+				}
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:poison",
+					"duration": 400,
+					"amplifier": 0
+				}
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:weakness",
+					"duration": 800,
+					"amplifier": 0
+				}
+			}
+		]
+	},
+		"item_condition": {
+			"type": "origins:nbt",
+			"nbt": "{origin:1b}"
+	}
+}

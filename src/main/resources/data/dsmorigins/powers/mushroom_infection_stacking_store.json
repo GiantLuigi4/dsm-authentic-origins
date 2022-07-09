@@ -1,0 +1,37 @@
+{
+	"type": "origins:resource",
+	"min": 0,
+	"max": 20,
+	"max_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:revoke_power",
+				"power": "dsmorigins:mushroom_skin_mobspecial",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "dsmorigins:mushroom_infection_stacking",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "dsmorigins:mushroom_infection_increasing",
+				"source": "dsmorigins:infection"
+			}
+		]
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "dsmorigins:textures/gui/resource_bar_02.png",
+		"inverted": true,
+		"bar_index": 3,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "dsmorigins:mushroom_infection_stacking_store",
+			"comparison": "<",
+			"compare_to": 20
+		}
+	}
+}

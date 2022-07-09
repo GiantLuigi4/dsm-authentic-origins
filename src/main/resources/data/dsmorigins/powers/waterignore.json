@@ -28,7 +28,7 @@
 	},
 	"gravity": {
 		"type": "origins:modify_falling",
-		"velocity": 0.01,
+		"velocity": 2,
 		"take_fall_damage": false,
 		"condition": {
 			"type": "origins:fluid_height",

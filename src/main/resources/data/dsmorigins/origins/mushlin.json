@@ -1,0 +1,29 @@
+{
+  "powers": [
+    "dsmorigins:mushroom_particles",
+    "dsmorigins:infection",
+    "dsmorigins:mushroom_skin",
+    "dsmorigins:mushroom_muscle_jerk",
+    "dsmorigins:mushroom_mobinfection",
+    "dsmorigins:mushroom_adrenaline",
+    "dsmorigins:mushroom_immunity",
+    "dsmorigins:mushroom_sporespread",
+    "dsmorigins:mushroom_sporespread_reset",
+    "dsmorigins:freeze",
+    "dsmorigins:infectedui",
+
+    "dsmorigins:mushroomeating",
+    "dsmorigins:nohelments",
+    "dsmorigins:hard_cap",
+    "dsmorigins:soft_cap",
+    "dsmorigins:crimson_cap",
+    "dsmorigins:warped_cap",
+    "dsmorigins:wearing_red_mushroom",
+    "dsmorigins:wearing_crimson_fungus",
+    "dsmorigins:wearing_warped_fungus",
+    "dsmorigins:wearing_brown_mushroom"
+  ],
+  "icon": "red_mushroom_block",
+  "order": 1,
+  "impact": 2
+}

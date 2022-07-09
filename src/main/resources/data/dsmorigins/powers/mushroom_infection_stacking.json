@@ -1,0 +1,39 @@
+{
+	"type": "origins:multiple",
+	"target": {
+		"type": "origins:target_action_on_hit",
+		"entity_action": {
+				"type": "origins:feed",
+				"food": 1,
+				"saturation": 1
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "dsmorigins:mushroom_infection_stacking_store",
+			"comparison": "<",
+			"compare_to": 20
+		},
+		"cooldown": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"self": {
+		"type": "origins:self_action_on_hit",
+		"entity_action": {
+			"type": "origins:feed",
+			"food": -1,
+			"saturation": -1
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "dsmorigins:mushroom_infection_stacking_store",
+			"comparison": "<",
+			"compare_to": 20
+		},
+		"cooldown": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	}
+}

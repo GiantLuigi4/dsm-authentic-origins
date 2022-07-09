@@ -1,0 +1,33 @@
+{
+	"type": "origins:multiple",
+	"damage": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:fire"
+		},
+		"modifier": {
+			"name": "Double burn damage",
+			"operation": "multiply_base",
+			"value": 1
+		}
+	},
+	"fire": {
+		"type": "origins:burn",
+		"interval": 20,
+		"burn_duration": 5,
+		"condition": {
+			"type": "origins:block_in_radius",
+			"radius": 1,
+			"block_condition": {
+				"type": "origins:in_tag",
+				"tag": "fire"
+			}
+		}
+	},
+	"color": {
+		"type": "origins:model_color",
+		"blue": 0.85,
+		"red": 0.85,
+		"green": 1
+	}
+}

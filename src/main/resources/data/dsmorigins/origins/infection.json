@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "dsmorigins:infection",
+    "dsmorigins:infection2",
+    "dsmorigins:infectiongrowth",
+    "dsmorigins:infectionresource1",
+    "dsmorigins:infectionhunger",
+    "dsmorigins:infection_shader",
+    "dsmorigins:mushroom_infection_increasing",
+    "dsmorigins:mushroom_infection_stacking_store",
+    "dsmorigins:mushroom_infection_stacking",
+    "dsmorigins:mushroom_skin_mobspecial",
+    "dsmorigins:freeze"
+
+  ],
+  "icon": "red_mushroom_block",
+  "order": 1,
+  "impact": 2
+}

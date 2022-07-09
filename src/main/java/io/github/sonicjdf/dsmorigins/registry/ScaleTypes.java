@@ -25,7 +25,6 @@ public class ScaleTypes {
 				.addDependentModifier(scaleModifier)
 				.build();
 		ScaleRegistries.SCALE_TYPES.put(new Identifier("dsmorigins:resize"), type);
-		ScaleType.BASE.getDefaultBaseValueModifiers().add(modifier);
 		scaleType = type;
 	}
 	

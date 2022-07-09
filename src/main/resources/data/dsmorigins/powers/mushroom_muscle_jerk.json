@@ -1,0 +1,44 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:choice",
+		"actions": [
+			{
+				"element": {
+					"type": "origins:nothing"
+				},
+				"weight": 8
+			},
+			{
+				"element": {
+					"type": "origins:add_velocity",
+					"x": -0.4,
+					"space": "local"
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:add_velocity",
+					"x": 0.4,
+					"space": "local"
+				},
+				"weight": 1
+			}
+		]
+	},
+	"interval": 15,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:moving"
+			},
+			{
+				"type": "origins:relative_health",
+				"comparison": "<=",
+				"compare_to": 0.3
+			}
+		]
+	}
+}

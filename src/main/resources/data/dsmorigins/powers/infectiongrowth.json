@@ -1,0 +1,30 @@
+{
+	"type": "origins:action_over_time",
+	"falling_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:revoke_power",
+				"power": "dsmorigins:infection_shader",
+				"source": "dsmorigins:infection"
+			},
+			{
+				"type": "origins:revoke_power",
+				"power": "dsmorigins:infectionhunger",
+				"source": "dsmorigins:infection"
+			}
+		]
+	},
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "dsmorigins:infectionresource1",
+		"change": 1
+	},
+	"interval": 60,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "dsmorigins:infectionresource1",
+		"comparison": "!=",
+		"compare_to": 100
+	}
+}
