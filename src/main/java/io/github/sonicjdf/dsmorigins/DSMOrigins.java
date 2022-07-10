@@ -1,11 +1,8 @@
 package io.github.sonicjdf.dsmorigins;
 
-import io.github.apace100.apoli.registry.ApoliRegistries;
-import io.github.apace100.calio.data.SerializableData;
 import io.github.sonicjdf.dsmorigins.registry.Powers;
 import io.github.sonicjdf.dsmorigins.registry.ScaleTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,7 +11,7 @@ public class DSMOrigins implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LogManager.getLogger("modid");
-
+	
 	@Override
 	public void onInitialize() {
 		ScaleTypes.init();
