@@ -14,7 +14,6 @@ public class DSMOrigins implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
-		ScaleTypes.init();
 		Powers.init();
 	}
 }

@@ -4,9 +4,11 @@
   "package": "io.github.sonicjdf.dsmorigins.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ServerMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
